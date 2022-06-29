@@ -1,0 +1,4 @@
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!
+See also "/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server/CMakeFiles/CMakeOutput.log".

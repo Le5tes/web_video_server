@@ -1,0 +1,433 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (web_video_server) JobQueued: {'identifier': 'web_video_server', 'dependencies': OrderedDict()}
+[0.000121] (web_video_server) JobStarted: {'identifier': 'web_video_server'}
+[0.012121] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'cmake'}
+[0.012974] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '/home/timwilliamson/dev/personal/Robotics/web_video_server', '-DCMAKE_INSTALL_PREFIX=/home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server'], 'cwd': '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.14.3'), ('LANGUAGE', 'en_GB:en'), ('USER', 'timwilliamson'), ('SSH_AGENT_PID', '2416'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/timwilliamson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/timwilliamson/dev/personal/Robotics/web_video_server/src'), ('TERM_PROGRAM_VERSION', '1.68.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/timwilliamson/.nvm/versions/node/v14.19.3/bin'), ('NVM_INC', '/home/timwilliamson/.nvm/versions/node/v14.19.3/include/node'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/98/usr/share/code/code'), ('MANAGERPID', '2221'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/timwilliamson/.nvm'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/timwilliamson/dev/personal/Robotics/web_video_server/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'timwilliamson'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:68676'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'timwilliamson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/timwilliamson/.nvm/versions/node/v14.19.3/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/timwilliamson/.local/bin:/home/timwilliamson/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/timwilliamson/.local/share/coursier/bin:/home/timwilliamson/.local/share/coursier/bin:/home/timwilliamson/.local/share/coursier/bin'), ('SESSION_MANAGER', 'local/OVO-D3DKDK3:@/tmp/.ICE-unix/2454,unix/OVO-D3DKDK3:/tmp/.ICE-unix/2454'), ('SDKMAN_CANDIDATES_DIR', '/home/timwilliamson/.sdkman/candidates'), ('INVOCATION_ID', 'aeea9045c7434395a2c001c4bce3a624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b401295_958d_4f33_aa83_1326c0db6d99'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-80259f3ae2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.656'), ('SDKMAN_DIR', '/home/timwilliamson/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/98/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server'), ('LC_ALL', 'en_GB.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.032846] (web_video_server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[0.054911] (web_video_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099437] (-) TimerEvent: {}
+[0.103077] (web_video_server) StdoutLine: {'line': b'-- Found async_web_server_cpp: 2.0.0 (/opt/ros/galactic/share/async_web_server_cpp/cmake)\n'}
+[0.199569] (-) TimerEvent: {}
+[0.299892] (-) TimerEvent: {}
+[0.400202] (-) TimerEvent: {}
+[0.407360] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: filesystem regex thread \n'}
+[0.412371] (web_video_server) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/galactic/share/cv_bridge/cmake)\n'}
+[0.428734] (web_video_server) StdoutLine: {'line': b'-- Found image_transport: 2.3.1 (/opt/ros/galactic/share/image_transport/cmake)\n'}
+[0.488967] (web_video_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.495362] (web_video_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.500293] (-) TimerEvent: {}
+[0.567561] (web_video_server) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.588636] (web_video_server) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.600378] (-) TimerEvent: {}
+[0.661758] (web_video_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700550] (-) TimerEvent: {}
+[0.726622] (web_video_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.730884] (web_video_server) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.757943] (web_video_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.759714] (web_video_server) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800720] (-) TimerEvent: {}
+[0.901018] (-) TimerEvent: {}
+[1.001304] (-) TimerEvent: {}
+[1.045289] (web_video_server) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[1.048215] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[1.051619] (web_video_server) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.052400] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.064818] (web_video_server) StdoutLine: {'line': b'--   Found libavcodec, version 58.54.100\n'}
+[1.094103] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.101394] (-) TimerEvent: {}
+[1.108089] (web_video_server) StdoutLine: {'line': b'--   Found libavformat, version 58.29.100\n'}
+[1.141160] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.151792] (web_video_server) StdoutLine: {'line': b'--   Found libavutil, version 56.31.100\n'}
+[1.180874] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.192259] (web_video_server) StdoutLine: {'line': b'--   Found libswscale, version 5.5.100\n'}
+[1.201497] (-) TimerEvent: {}
+[1.301585] (web_video_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301748] (-) TimerEvent: {}
+[1.340225] (web_video_server) StdoutLine: {'line': b'-- Generating done\n'}
+[1.342535] (web_video_server) StdoutLine: {'line': b'-- Build files have been written to: /home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server\n'}
+[1.348466] (web_video_server) CommandEnded: {'returncode': 0}
+[1.349015] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'build'}
+[1.349615] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server', '--', '-j16', '-l16'], 'cwd': '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.14.3'), ('LANGUAGE', 'en_GB:en'), ('USER', 'timwilliamson'), ('SSH_AGENT_PID', '2416'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/timwilliamson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/timwilliamson/dev/personal/Robotics/web_video_server/src'), ('TERM_PROGRAM_VERSION', '1.68.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/timwilliamson/.nvm/versions/node/v14.19.3/bin'), ('NVM_INC', '/home/timwilliamson/.nvm/versions/node/v14.19.3/include/node'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/98/usr/share/code/code'), ('MANAGERPID', '2221'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/timwilliamson/.nvm'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/timwilliamson/dev/personal/Robotics/web_video_server/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'timwilliamson'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:68676'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'timwilliamson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/timwilliamson/.nvm/versions/node/v14.19.3/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/timwilliamson/.local/bin:/home/timwilliamson/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/timwilliamson/.local/share/coursier/bin:/home/timwilliamson/.local/share/coursier/bin:/home/timwilliamson/.local/share/coursier/bin'), ('SESSION_MANAGER', 'local/OVO-D3DKDK3:@/tmp/.ICE-unix/2454,unix/OVO-D3DKDK3:/tmp/.ICE-unix/2454'), ('SDKMAN_CANDIDATES_DIR', '/home/timwilliamson/.sdkman/candidates'), ('INVOCATION_ID', 'aeea9045c7434395a2c001c4bce3a624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b401295_958d_4f33_aa83_1326c0db6d99'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-80259f3ae2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.656'), ('SDKMAN_DIR', '/home/timwilliamson/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/98/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server'), ('LC_ALL', 'en_GB.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.390543] (web_video_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target web_video_server\x1b[0m\n'}
+[1.401921] (-) TimerEvent: {}
+[1.502176] (-) TimerEvent: {}
+[1.602406] (-) TimerEvent: {}
+[1.679150] (web_video_server) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o\x1b[0m\n'}
+[1.679385] (web_video_server) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o\x1b[0m\n'}
+[1.679514] (web_video_server) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o\x1b[0m\n'}
+[1.681301] (web_video_server) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o\x1b[0m\n'}
+[1.681704] (web_video_server) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o\x1b[0m\n'}
+[1.683330] (web_video_server) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp9_streamer.cpp.o\x1b[0m\n'}
+[1.683583] (web_video_server) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/jpeg_streamers.cpp.o\x1b[0m\n'}
+[1.683789] (web_video_server) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/png_streamers.cpp.o\x1b[0m\n'}
+[1.683976] (web_video_server) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/multipart_stream.cpp.o\x1b[0m\n'}
+[1.684090] (web_video_server) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/ros_compressed_streamer.cpp.o\x1b[0m\n'}
+[1.702491] (-) TimerEvent: {}
+[1.802724] (-) TimerEvent: {}
+[1.902986] (-) TimerEvent: {}
+[2.003270] (-) TimerEvent: {}
+[2.103588] (-) TimerEvent: {}
+[2.204233] (-) TimerEvent: {}
+[2.304510] (-) TimerEvent: {}
+[2.404857] (-) TimerEvent: {}
+[2.505168] (-) TimerEvent: {}
+[2.605531] (-) TimerEvent: {}
+[2.706010] (-) TimerEvent: {}
+[2.806378] (-) TimerEvent: {}
+[2.906794] (-) TimerEvent: {}
+[3.007186] (-) TimerEvent: {}
+[3.983862] (-) TimerEvent: {}
+[4.113032] (-) TimerEvent: {}
+[4.239644] (-) TimerEvent: {}
+[4.364921] (-) TimerEvent: {}
+[4.530470] (-) TimerEvent: {}
+[6.044246] (-) TimerEvent: {}
+[9.687397] (-) TimerEvent: {}
+[10.780847] (-) TimerEvent: {}
+[12.491417] (-) TimerEvent: {}
+[13.149872] (-) TimerEvent: {}
+[16.815477] (-) TimerEvent: {}
+[17.915462] (-) TimerEvent: {}
+[19.286429] (-) TimerEvent: {}
+[21.833379] (-) TimerEvent: {}
+[25.729999] (-) TimerEvent: {}
+[25.846357] (-) TimerEvent: {}
+[25.957511] (-) TimerEvent: {}
+[26.058937] (-) TimerEvent: {}
+[26.159487] (-) TimerEvent: {}
+[27.216367] (-) TimerEvent: {}
+[27.320086] (-) TimerEvent: {}
+[27.421296] (-) TimerEvent: {}
+[27.522306] (-) TimerEvent: {}
+[27.623413] (-) TimerEvent: {}
+[27.723828] (-) TimerEvent: {}
+[27.825041] (-) TimerEvent: {}
+[27.926608] (-) TimerEvent: {}
+[28.027922] (-) TimerEvent: {}
+[28.149323] (-) TimerEvent: {}
+[28.278082] (-) TimerEvent: {}
+[29.151499] (-) TimerEvent: {}
+[32.920303] (-) TimerEvent: {}
+[34.536382] (-) TimerEvent: {}
+[35.933682] (-) TimerEvent: {}
+[36.929696] (-) TimerEvent: {}
+[38.277919] (-) TimerEvent: {}
+[44.442861] (-) TimerEvent: {}
+[56.038900] (-) TimerEvent: {}
+[56.250436] (-) TimerEvent: {}
+[56.771390] (-) TimerEvent: {}
+[56.932979] (-) TimerEvent: {}
+[57.059209] (-) TimerEvent: {}
+[57.189908] (-) TimerEvent: {}
+[57.307019] (-) TimerEvent: {}
+[57.441179] (-) TimerEvent: {}
+[57.571002] (-) TimerEvent: {}
+[57.685159] (-) TimerEvent: {}
+[57.844579] (-) TimerEvent: {}
+[57.978579] (-) TimerEvent: {}
+[58.178364] (-) TimerEvent: {}
+[58.363249] (-) TimerEvent: {}
+[58.539158] (-) TimerEvent: {}
+[58.824301] (-) TimerEvent: {}
+[59.016682] (-) TimerEvent: {}
+[59.168205] (-) TimerEvent: {}
+[59.347854] (-) TimerEvent: {}
+[59.484669] (-) TimerEvent: {}
+[59.671598] (-) TimerEvent: {}
+[59.828572] (-) TimerEvent: {}
+[59.989435] (-) TimerEvent: {}
+[60.122604] (-) TimerEvent: {}
+[60.272089] (-) TimerEvent: {}
+[60.555154] (-) TimerEvent: {}
+[60.814215] (-) TimerEvent: {}
+[61.062111] (-) TimerEvent: {}
+[61.712585] (-) TimerEvent: {}
+[62.210489] (-) TimerEvent: {}
+[62.655203] (-) TimerEvent: {}
+[62.945858] (-) TimerEvent: {}
+[63.300366] (-) TimerEvent: {}
+[63.626927] (-) TimerEvent: {}
+[63.963157] (-) TimerEvent: {}
+[64.560585] (-) TimerEvent: {}
+[64.790535] (-) TimerEvent: {}
+[65.154193] (-) TimerEvent: {}
+[65.530595] (-) TimerEvent: {}
+[65.930056] (-) TimerEvent: {}
+[66.633089] (-) TimerEvent: {}
+[67.270223] (-) TimerEvent: {}
+[68.050990] (-) TimerEvent: {}
+[68.991815] (-) TimerEvent: {}
+[69.924521] (-) TimerEvent: {}
+[71.187697] (-) TimerEvent: {}
+[71.996338] (-) TimerEvent: {}
+[74.810916] (-) TimerEvent: {}
+[84.700795] (-) TimerEvent: {}
+[111.774101] (-) TimerEvent: {}
+[177.113929] (-) TimerEvent: {}
+[177.287690] (-) TimerEvent: {}
+[177.403576] (-) TimerEvent: {}
+[177.523103] (-) TimerEvent: {}
+[177.634078] (-) TimerEvent: {}
+[177.735757] (-) TimerEvent: {}
+[177.881389] (-) TimerEvent: {}
+[178.001814] (-) TimerEvent: {}
+[178.129611] (-) TimerEvent: {}
+[178.243636] (-) TimerEvent: {}
+[178.659807] (-) TimerEvent: {}
+[181.986340] (-) TimerEvent: {}
+[189.295435] (-) TimerEvent: {}
+[197.727365] (-) TimerEvent: {}
+[202.067501] (-) TimerEvent: {}
+[202.437741] (-) TimerEvent: {}
+[206.553275] (-) TimerEvent: {}
+[225.390539] (-) TimerEvent: {}
+[246.131554] (-) TimerEvent: {}
+[274.228860] (-) TimerEvent: {}
+[274.525538] (-) TimerEvent: {}
+[278.187256] (-) TimerEvent: {}
+[278.960866] (-) TimerEvent: {}
+[283.001764] (-) TimerEvent: {}
+[289.641108] (-) TimerEvent: {}
+[295.948647] (-) TimerEvent: {}
+[302.009529] (-) TimerEvent: {}
+[367.354402] (-) TimerEvent: {}
+[392.488482] (-) TimerEvent: {}
+[392.968542] (-) TimerEvent: {}
+[399.593679] (-) TimerEvent: {}
+[401.757685] (-) TimerEvent: {}
+[411.295518] (-) TimerEvent: {}
+[428.193278] (-) TimerEvent: {}
+[428.440179] (-) TimerEvent: {}
+[431.372574] (-) TimerEvent: {}
+[437.321401] (-) TimerEvent: {}
+[437.542564] (-) TimerEvent: {}
+[440.150309] (-) TimerEvent: {}
+[444.685475] (-) TimerEvent: {}
+[448.524879] (-) TimerEvent: {}
+[455.857912] (-) TimerEvent: {}
+[488.194974] (-) TimerEvent: {}
+[491.474465] (-) TimerEvent: {}
+[495.811802] (-) TimerEvent: {}
+[501.766560] (-) TimerEvent: {}
+[512.968027] (-) TimerEvent: {}
+[513.530213] (-) TimerEvent: {}
+[517.660647] (-) TimerEvent: {}
+[532.764849] (-) TimerEvent: {}
+[533.104614] (-) TimerEvent: {}
+[537.098847] (-) TimerEvent: {}
+[540.496375] (-) TimerEvent: {}
+[545.676009] (-) TimerEvent: {}
+[2231.685192] (-) TimerEvent: {}
+[2231.786146] (-) TimerEvent: {}
+[2231.886571] (-) TimerEvent: {}
+[2231.986981] (-) TimerEvent: {}
+[2232.088177] (-) TimerEvent: {}
+[2232.192712] (-) TimerEvent: {}
+[2232.295505] (-) TimerEvent: {}
+[2232.399693] (-) TimerEvent: {}
+[2232.500236] (-) TimerEvent: {}
+[2232.601136] (-) TimerEvent: {}
+[2232.701636] (-) TimerEvent: {}
+[2232.802109] (-) TimerEvent: {}
+[2232.902525] (-) TimerEvent: {}
+[2233.003053] (-) TimerEvent: {}
+[2233.051767] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kweb_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2233.052253] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:65:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint av_lockmgr_register(int (*)(void**, AVLockOp))\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.052385] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[2233.052475] (web_video_server) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2233.053857] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/libav_streamer.h:11\x1b[m\x1b[K,\n'}
+[2233.054077] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.054167] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.054250] (web_video_server) StderrLine: {'line': b' 6163 | int \x1b[01;36m\x1b[Kav_lockmgr_register\x1b[m\x1b[K(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[2233.054342] (web_video_server) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2233.054425] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:65:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint av_lockmgr_register(int (*)(void**, AVLockOp))\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.054513] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[2233.054594] (web_video_server) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2233.054673] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/libav_streamer.h:11\x1b[m\x1b[K,\n'}
+[2233.054758] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.054840] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.054920] (web_video_server) StderrLine: {'line': b' 6163 | int \x1b[01;36m\x1b[Kav_lockmgr_register\x1b[m\x1b[K(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[2233.055001] (web_video_server) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2233.055087] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:66:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid av_register_all()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.055166] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[2233.055250] (web_video_server) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2233.056048] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[2233.056305] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.056398] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.056494] (web_video_server) StderrLine: {'line': b' 2050 | void \x1b[01;36m\x1b[Kav_register_all\x1b[m\x1b[K(void);\n'}
+[2233.056580] (web_video_server) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2233.056665] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:66:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid av_register_all()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.056754] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[2233.056838] (web_video_server) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2233.056926] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[2233.057010] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.057099] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.057188] (web_video_server) StderrLine: {'line': b' 2050 | void \x1b[01;36m\x1b[Kav_register_all\x1b[m\x1b[K(void);\n'}
+[2233.057272] (web_video_server) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2233.060202] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2233.060449] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.060598] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[2233.060741] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2233.060880] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[2233.061021] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.061182] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.061267] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[2233.061352] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2233.061439] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.061554] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[2233.061639] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2233.061734] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[2233.061824] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.061912] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.061993] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[2233.062080] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2233.062174] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.062259] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[2233.062343] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2233.062427] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[2233.062514] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.062599] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.062682] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[2233.062766] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2233.103157] (-) TimerEvent: {}
+[2233.108331] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/ros_compressed_streamer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void web_video_server::RosCompressedStreamer::restreamFrame(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2233.108638] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/ros_compressed_streamer.cpp:30:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(rcl_duration_value_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.108763] (web_video_server) StderrLine: {'line': b'   30 |   if ( last_frame + rclcpp::Duration(max_age\x1b[01;35m\x1b[K)\x1b[m\x1b[K < nh_->now() ) {\n'}
+[2233.108856] (web_video_server) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2233.109688] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2233.109914] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2233.110019] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2233.110101] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2233.110195] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2233.110278] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2233.110358] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2233.110443] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2233.110523] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2233.110612] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2233.110710] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2233.110801] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2233.110890] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/image_streamer.h:4\x1b[m\x1b[K,\n'}
+[2233.110974] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/ros_compressed_streamer.h:5\x1b[m\x1b[K,\n'}
+[2233.111059] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/ros_compressed_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.111149] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.111234] (web_video_server) StderrLine: {'line': b'   46 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(rcl_duration_value_t nanoseconds);\n'}
+[2233.111318] (web_video_server) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2233.203281] (-) TimerEvent: {}
+[2233.303729] (-) TimerEvent: {}
+[2233.404110] (-) TimerEvent: {}
+[2233.504525] (-) TimerEvent: {}
+[2233.548563] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/image_streamer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void web_video_server::ImageTransportImageStreamer::restreamFrame(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2233.548856] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/image_streamer.cpp:61:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(rcl_duration_value_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[2233.548962] (web_video_server) StderrLine: {'line': b'   61 |     if ( last_frame + rclcpp::Duration(max_age\x1b[01;35m\x1b[K)\x1b[m\x1b[K < nh_->now() ) {\n'}
+[2233.549040] (web_video_server) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2233.553593] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2233.553889] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2233.554013] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2233.554100] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2233.554184] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2233.554253] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2233.554337] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2233.554414] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2233.554481] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2233.554557] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2233.554635] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2233.554714] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2233.554791] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/include/web_video_server/image_streamer.h:4\x1b[m\x1b[K,\n'}
+[2233.554854] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timwilliamson/dev/personal/Robotics/web_video_server/src/image_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[2233.554906] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2233.554967] (web_video_server) StderrLine: {'line': b'   46 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(rcl_duration_value_t nanoseconds);\n'}
+[2233.555047] (web_video_server) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2233.604645] (-) TimerEvent: {}
+[2233.705019] (-) TimerEvent: {}
+[2233.805401] (-) TimerEvent: {}
+[2233.905813] (-) TimerEvent: {}
+[2234.006195] (-) TimerEvent: {}
+[2234.106568] (-) TimerEvent: {}
+[2234.206978] (-) TimerEvent: {}
+[2234.307428] (-) TimerEvent: {}
+[2234.407887] (-) TimerEvent: {}
+[2234.508312] (-) TimerEvent: {}
+[2234.608732] (-) TimerEvent: {}
+[2234.709165] (-) TimerEvent: {}
+[2234.809530] (-) TimerEvent: {}
+[2234.909948] (-) TimerEvent: {}
+[2235.010394] (-) TimerEvent: {}
+[2235.110781] (-) TimerEvent: {}
+[2235.211094] (-) TimerEvent: {}
+[2235.311477] (-) TimerEvent: {}
+[2235.411830] (-) TimerEvent: {}
+[2235.512158] (-) TimerEvent: {}
+[2235.612524] (-) TimerEvent: {}
+[2235.712819] (-) TimerEvent: {}
+[2235.813171] (-) TimerEvent: {}
+[2235.913508] (-) TimerEvent: {}
+[2236.013813] (-) TimerEvent: {}
+[2236.114162] (-) TimerEvent: {}
+[2236.214459] (-) TimerEvent: {}
+[2236.314737] (-) TimerEvent: {}
+[2236.415070] (-) TimerEvent: {}
+[2236.515392] (-) TimerEvent: {}
+[2236.615734] (-) TimerEvent: {}
+[2236.716017] (-) TimerEvent: {}
+[2236.816291] (-) TimerEvent: {}
+[2236.916672] (-) TimerEvent: {}
+[2237.016951] (-) TimerEvent: {}
+[2237.117240] (-) TimerEvent: {}
+[2237.217513] (-) TimerEvent: {}
+[2237.317846] (-) TimerEvent: {}
+[2237.418171] (-) TimerEvent: {}
+[2237.518502] (-) TimerEvent: {}
+[2237.618841] (-) TimerEvent: {}
+[2237.719183] (-) TimerEvent: {}
+[2237.819523] (-) TimerEvent: {}
+[2237.919905] (-) TimerEvent: {}
+[2238.020196] (-) TimerEvent: {}
+[2238.120530] (-) TimerEvent: {}
+[2238.220820] (-) TimerEvent: {}
+[2238.266088] (web_video_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable web_video_server\x1b[0m\n'}
+[2238.320941] (-) TimerEvent: {}
+[2238.421295] (-) TimerEvent: {}
+[2238.521671] (-) TimerEvent: {}
+[2238.622279] (-) TimerEvent: {}
+[2238.722844] (-) TimerEvent: {}
+[2238.823378] (-) TimerEvent: {}
+[2238.923679] (-) TimerEvent: {}
+[2239.024032] (-) TimerEvent: {}
+[2239.076614] (web_video_server) StdoutLine: {'line': b'[100%] Built target web_video_server\n'}
+[2239.090360] (web_video_server) CommandEnded: {'returncode': 0}
+[2239.124150] (-) TimerEvent: {}
+[2239.137116] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'install'}
+[2239.147139] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server'], 'cwd': '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.14.3'), ('LANGUAGE', 'en_GB:en'), ('USER', 'timwilliamson'), ('SSH_AGENT_PID', '2416'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/timwilliamson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/timwilliamson/dev/personal/Robotics/web_video_server/src'), ('TERM_PROGRAM_VERSION', '1.68.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/timwilliamson/.nvm/versions/node/v14.19.3/bin'), ('NVM_INC', '/home/timwilliamson/.nvm/versions/node/v14.19.3/include/node'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/98/usr/share/code/code'), ('MANAGERPID', '2221'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/timwilliamson/.nvm'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/timwilliamson/dev/personal/Robotics/web_video_server/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'timwilliamson'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:68676'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'timwilliamson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/timwilliamson/.nvm/versions/node/v14.19.3/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/timwilliamson/.local/bin:/home/timwilliamson/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/timwilliamson/.local/share/coursier/bin:/home/timwilliamson/.local/share/coursier/bin:/home/timwilliamson/.local/share/coursier/bin'), ('SESSION_MANAGER', 'local/OVO-D3DKDK3:@/tmp/.ICE-unix/2454,unix/OVO-D3DKDK3:/tmp/.ICE-unix/2454'), ('SDKMAN_CANDIDATES_DIR', '/home/timwilliamson/.sdkman/candidates'), ('INVOCATION_ID', 'aeea9045c7434395a2c001c4bce3a624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b401295_958d_4f33_aa83_1326c0db6d99'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-80259f3ae2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.656'), ('SDKMAN_DIR', '/home/timwilliamson/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/98/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/timwilliamson/dev/personal/Robotics/web_video_server/build/web_video_server'), ('LC_ALL', 'en_GB.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[2239.158784] (web_video_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2239.159104] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/lib/web_video_server/web_video_server\n'}
+[2239.177752] (web_video_server) StdoutLine: {'line': b'-- Set runtime path of "/home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/lib/web_video_server/web_video_server" to ""\n'}
+[2239.178008] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server\n'}
+[2239.178108] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/image_streamer.h\n'}
+[2239.178487] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/multipart_stream.h\n'}
+[2239.178886] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/png_streamers.h\n'}
+[2239.179412] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/ros_compressed_streamer.h\n'}
+[2239.179833] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/h264_streamer.h\n'}
+[2239.180321] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/web_video_server.h\n'}
+[2239.180677] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/vp9_streamer.h\n'}
+[2239.181053] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/jpeg_streamers.h\n'}
+[2239.181381] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/vp8_streamer.h\n'}
+[2239.181686] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/include/web_video_server/libav_streamer.h\n'}
+[2239.182578] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server\n'}
+[2239.183318] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server\n'}
+[2239.184433] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh\n'}
+[2239.185012] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv\n'}
+[2239.185662] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/environment/path.sh\n'}
+[2239.186227] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/environment/path.dsv\n'}
+[2239.186777] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/local_setup.bash\n'}
+[2239.187660] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/local_setup.sh\n'}
+[2239.188498] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/local_setup.zsh\n'}
+[2239.189132] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/local_setup.dsv\n'}
+[2239.189643] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/package.dsv\n'}
+[2239.190365] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/ament_index/resource_index/packages/web_video_server\n'}
+[2239.190921] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake\n'}
+[2239.191516] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake\n'}
+[2239.192128] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/timwilliamson/dev/personal/Robotics/web_video_server/install/web_video_server/share/web_video_server/package.xml\n'}
+[2239.195164] (web_video_server) CommandEnded: {'returncode': 0}
+[2239.224257] (-) TimerEvent: {}
+[2239.265575] (web_video_server) JobEnded: {'identifier': 'web_video_server', 'rc': 0}
+[2239.266605] (-) EventReactorShutdown: {}
