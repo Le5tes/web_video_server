@@ -1,0 +1,98 @@
+[
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "True"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "aarch64"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "galactic"
+            }
+        ],
+        "MetricName": "gather_rosdeps-size",
+        "Timestamp": 1656578966.688471,
+        "Unit": "Bytes",
+        "Value": 219575958
+    },
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "True"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "aarch64"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "galactic"
+            }
+        ],
+        "MetricName": "gather_rosdeps-time",
+        "Timestamp": 1656578966.6884782,
+        "Unit": "Seconds",
+        "Value": 1605.3129490979998
+    },
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "False"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "aarch64"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "galactic"
+            }
+        ],
+        "MetricName": "sysroot-time",
+        "Timestamp": 1656626218.4679627,
+        "Unit": "Seconds",
+        "Value": 1217.545597034
+    },
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "False"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "aarch64"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "galactic"
+            }
+        ],
+        "MetricName": "end_to_end-time",
+        "Timestamp": 1656626218.467976,
+        "Unit": "Seconds",
+        "Value": 2822.8666724070004
+    }
+]

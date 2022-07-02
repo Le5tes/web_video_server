@@ -1,0 +1,103 @@
+[1.508s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--mixin', 'aarch64-docker', '--build-base', 'build_aarch64', '--install-base', 'install_aarch64']
+[1.510s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build_aarch64', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=['console_cohesion+', 'console_package_list+'], executor='parallel', ignore_user_meta=False, install_base='install_aarch64', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x4002a13eb0>>, merge_install=False, metas=['./colcon.meta'], mixin=['aarch64-docker'], mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x4002a13eb0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x4002b1a910>)
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.768s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ros_ws'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.848s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'web_video_server'
+[1.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_args' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_cache' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_first' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_force_configure' from command line to 'False'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'ament_cmake_args' from command line to 'None'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_cmake_args' from command line to 'None'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.973s] DEBUG:colcon.colcon_core.verb:Building package 'web_video_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/build_aarch64/web_video_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/install_aarch64/web_video_server', 'merge_install': False, 'path': '/ros_ws', 'symlink_install': False, 'test_result_base': None}
+[1.979s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ros_ws' with build type 'ament_cmake'
+[2.107s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ros_ws'
+[2.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build_aarch64/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /ros_ws -DCMAKE_INSTALL_PREFIX=/ros_ws/install_aarch64/web_video_server
+[17.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build_aarch64/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /ros_ws -DCMAKE_INSTALL_PREFIX=/ros_ws/install_aarch64/web_video_server
+[17.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build_aarch64/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /ros_ws/build_aarch64/web_video_server -- -j16 -l16
+[102.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build_aarch64/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /ros_ws/build_aarch64/web_video_server -- -j16 -l16
+[103.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build_aarch64/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /ros_ws/build_aarch64/web_video_server
+[103.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[103.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build_aarch64/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /ros_ws/build_aarch64/web_video_server
+[103.498s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server' for CMake module files
+[103.501s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server' for CMake config files
+[103.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[103.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install_aarch64/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[103.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install_aarch64/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[103.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install_aarch64/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[103.537s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/lib'
+[103.538s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/bin'
+[103.538s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/lib/pkgconfig/web_video_server.pc'
+[103.544s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/lib/python3.8/site-packages'
+[103.545s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/bin'
+[103.559s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.ps1'
+[103.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.dsv'
+[103.565s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.sh'
+[103.568s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.bash'
+[103.571s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.zsh'
+[103.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install_aarch64/web_video_server/share/colcon-core/packages/web_video_server)
+[104.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[104.525s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server' for CMake module files
+[104.527s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server' for CMake config files
+[104.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[104.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install_aarch64/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[104.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install_aarch64/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[104.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install_aarch64/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[104.547s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/lib'
+[104.547s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/bin'
+[104.548s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/lib/pkgconfig/web_video_server.pc'
+[104.548s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/lib/python3.8/site-packages'
+[104.549s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install_aarch64/web_video_server/bin'
+[104.564s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.ps1'
+[104.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.dsv'
+[104.567s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.sh'
+[104.568s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.bash'
+[104.569s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install_aarch64/web_video_server/share/web_video_server/package.zsh'
+[104.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install_aarch64/web_video_server/share/colcon-core/packages/web_video_server)
+[104.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[104.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[104.573s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[104.573s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[104.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[104.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[104.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[104.630s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[104.632s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[104.633s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[104.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install_aarch64/local_setup.ps1'
+[104.655s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros_ws/install_aarch64/_local_setup_util_ps1.py'
+[104.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install_aarch64/setup.ps1'
+[104.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install_aarch64/local_setup.sh'
+[104.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros_ws/install_aarch64/_local_setup_util_sh.py'
+[104.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install_aarch64/setup.sh'
+[104.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install_aarch64/local_setup.bash'
+[104.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install_aarch64/setup.bash'
+[104.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install_aarch64/local_setup.zsh'
+[104.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install_aarch64/setup.zsh'

@@ -1,0 +1,101 @@
+/ros_ws/src/ros_compressed_streamer.cpp: In member function ‘virtual void web_video_server::RosCompressedStreamer::restreamFrame(double)’:
+/ros_ws/src/ros_compressed_streamer.cpp:30:45: warning: ‘rclcpp::Duration::Duration(rcl_duration_value_t)’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [-Wdeprecated-declarations]
+   30 |   if ( last_frame + rclcpp::Duration(max_age) < nh_->now() ) {
+      |                                             ^
+In file included from /opt/ros/galactic/include/rclcpp/qos.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31,
+                 from /opt/ros/galactic/include/rclcpp/client.hpp:34,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /ros_ws/include/web_video_server/image_streamer.h:4,
+                 from /ros_ws/include/web_video_server/ros_compressed_streamer.h:5,
+                 from /ros_ws/src/ros_compressed_streamer.cpp:1:
+/opt/ros/galactic/include/rclcpp/duration.hpp:46:12: note: declared here
+   46 |   explicit Duration(rcl_duration_value_t nanoseconds);
+      |            ^~~~~~~~
+/ros_ws/src/image_streamer.cpp: In member function ‘virtual void web_video_server::ImageTransportImageStreamer::restreamFrame(double)’:
+/ros_ws/src/image_streamer.cpp:61:47: warning: ‘rclcpp::Duration::Duration(rcl_duration_value_t)’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [-Wdeprecated-declarations]
+   61 |     if ( last_frame + rclcpp::Duration(max_age) < nh_->now() ) {
+      |                                               ^
+In file included from /opt/ros/galactic/include/rclcpp/qos.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31,
+                 from /opt/ros/galactic/include/rclcpp/client.hpp:34,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /ros_ws/include/web_video_server/image_streamer.h:4,
+                 from /ros_ws/src/image_streamer.cpp:1:
+/opt/ros/galactic/include/rclcpp/duration.hpp:46:12: note: declared here
+   46 |   explicit Duration(rcl_duration_value_t nanoseconds);
+      |            ^~~~~~~~
+/ros_ws/src/libav_streamer.cpp: In constructor ‘web_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)’:
+/ros_ws/src/libav_streamer.cpp:65:55: warning: ‘int av_lockmgr_register(int (*)(void**, AVLockOp))’ is deprecated [-Wdeprecated-declarations]
+   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager);
+      |                                                       ^
+In file included from /ros_ws/include/web_video_server/libav_streamer.h:11,
+                 from /ros_ws/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:6163:5: note: declared here
+ 6163 | int av_lockmgr_register(int (*cb)(void **mutex, enum AVLockOp op));
+      |     ^~~~~~~~~~~~~~~~~~~
+/ros_ws/src/libav_streamer.cpp:65:55: warning: ‘int av_lockmgr_register(int (*)(void**, AVLockOp))’ is deprecated [-Wdeprecated-declarations]
+   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager);
+      |                                                       ^
+In file included from /ros_ws/include/web_video_server/libav_streamer.h:11,
+                 from /ros_ws/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:6163:5: note: declared here
+ 6163 | int av_lockmgr_register(int (*cb)(void **mutex, enum AVLockOp op));
+      |     ^~~~~~~~~~~~~~~~~~~
+/ros_ws/src/libav_streamer.cpp:66:19: warning: ‘void av_register_all()’ is deprecated [-Wdeprecated-declarations]
+   66 |   av_register_all();
+      |                   ^
+In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,
+                 from /ros_ws/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:2050:6: note: declared here
+ 2050 | void av_register_all(void);
+      |      ^~~~~~~~~~~~~~~
+/ros_ws/src/libav_streamer.cpp:66:19: warning: ‘void av_register_all()’ is deprecated [-Wdeprecated-declarations]
+   66 |   av_register_all();
+      |                   ^
+In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,
+                 from /ros_ws/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:2050:6: note: declared here
+ 2050 | void av_register_all(void);
+      |      ^~~~~~~~~~~~~~~
+/ros_ws/src/libav_streamer.cpp: In member function ‘virtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)’:
+/ros_ws/src/libav_streamer.cpp:160:35: warning: ‘AVStream::codec’ is deprecated [-Wdeprecated-declarations]
+  160 |   codec_context_ = video_stream_->codec;
+      |                                   ^~~~~
+In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,
+                 from /ros_ws/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21: note: declared here
+  885 |     AVCodecContext *codec;
+      |                     ^~~~~
+/ros_ws/src/libav_streamer.cpp:160:35: warning: ‘AVStream::codec’ is deprecated [-Wdeprecated-declarations]
+  160 |   codec_context_ = video_stream_->codec;
+      |                                   ^~~~~
+In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,
+                 from /ros_ws/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21: note: declared here
+  885 |     AVCodecContext *codec;
+      |                     ^~~~~
+/ros_ws/src/libav_streamer.cpp:160:35: warning: ‘AVStream::codec’ is deprecated [-Wdeprecated-declarations]
+  160 |   codec_context_ = video_stream_->codec;
+      |                                   ^~~~~
+In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,
+                 from /ros_ws/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21: note: declared here
+  885 |     AVCodecContext *codec;
+      |                     ^~~~~

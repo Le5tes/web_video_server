@@ -1,0 +1,1116 @@
+[0.000000] (-) TimerEvent: {}
+[0.008871] (web_video_server) JobQueued: {'identifier': 'web_video_server', 'dependencies': OrderedDict()}
+[0.031176] (web_video_server) JobStarted: {'identifier': 'web_video_server'}
+[0.068286] (-) TimerEvent: {}
+[0.169182] (-) TimerEvent: {}
+[0.207535] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'cmake'}
+[0.208780] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '/ros_ws', '-DCMAKE_INSTALL_PREFIX=/ros_ws/install_aarch64/web_video_server'], 'cwd': '/ros_ws/build_aarch64/web_video_server', 'env': OrderedDict([('COLCON', '1'), ('TARGET_ARCH', 'aarch64'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ros_ws/build_aarch64/web_video_server'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('LANG', 'en_US.UTF-8'), ('COLCON_DEFAULTS_FILE', '/root/defaults.yaml'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'galactic'), ('OWNER_USER', '1000'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('SHLVL', '1'), ('HOSTNAME', 'OVO-D3DKDK3'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.269296] (-) TimerEvent: {}
+[0.369756] (-) TimerEvent: {}
+[0.470227] (-) TimerEvent: {}
+[0.570729] (-) TimerEvent: {}
+[0.671268] (-) TimerEvent: {}
+[0.771926] (-) TimerEvent: {}
+[0.872585] (-) TimerEvent: {}
+[0.973093] (-) TimerEvent: {}
+[1.015475] (web_video_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.073278] (-) TimerEvent: {}
+[1.173741] (-) TimerEvent: {}
+[1.274234] (-) TimerEvent: {}
+[1.374710] (-) TimerEvent: {}
+[1.475234] (-) TimerEvent: {}
+[1.575761] (-) TimerEvent: {}
+[1.657165] (web_video_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.675898] (-) TimerEvent: {}
+[1.682534] (web_video_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.776114] (-) TimerEvent: {}
+[1.876596] (-) TimerEvent: {}
+[1.977111] (-) TimerEvent: {}
+[2.077709] (-) TimerEvent: {}
+[2.178244] (-) TimerEvent: {}
+[2.278724] (-) TimerEvent: {}
+[2.379198] (-) TimerEvent: {}
+[2.479678] (-) TimerEvent: {}
+[2.568035] (web_video_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.572740] (web_video_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.579783] (-) TimerEvent: {}
+[2.680216] (-) TimerEvent: {}
+[2.780641] (-) TimerEvent: {}
+[2.881089] (-) TimerEvent: {}
+[2.981565] (-) TimerEvent: {}
+[3.082098] (-) TimerEvent: {}
+[3.182688] (-) TimerEvent: {}
+[3.283157] (-) TimerEvent: {}
+[3.383737] (-) TimerEvent: {}
+[3.437462] (web_video_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.483866] (-) TimerEvent: {}
+[3.502622] (web_video_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.504818] (web_video_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.517084] (web_video_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.584144] (-) TimerEvent: {}
+[3.684625] (-) TimerEvent: {}
+[3.785081] (-) TimerEvent: {}
+[3.885530] (-) TimerEvent: {}
+[3.986043] (-) TimerEvent: {}
+[4.086572] (-) TimerEvent: {}
+[4.187065] (-) TimerEvent: {}
+[4.287603] (-) TimerEvent: {}
+[4.388076] (-) TimerEvent: {}
+[4.418023] (web_video_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.421432] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.488364] (-) TimerEvent: {}
+[4.588789] (-) TimerEvent: {}
+[4.689274] (-) TimerEvent: {}
+[4.789745] (-) TimerEvent: {}
+[4.890221] (-) TimerEvent: {}
+[4.990716] (-) TimerEvent: {}
+[5.091198] (-) TimerEvent: {}
+[5.191641] (-) TimerEvent: {}
+[5.292072] (-) TimerEvent: {}
+[5.295917] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.356192] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.358860] (web_video_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.370897] (web_video_server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[5.392282] (-) TimerEvent: {}
+[5.492811] (-) TimerEvent: {}
+[5.593292] (-) TimerEvent: {}
+[5.620036] (web_video_server) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.620787] (web_video_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.693541] (-) TimerEvent: {}
+[5.793991] (-) TimerEvent: {}
+[5.894467] (-) TimerEvent: {}
+[5.994970] (-) TimerEvent: {}
+[6.081608] (web_video_server) StdoutLine: {'line': b'-- Found async_web_server_cpp: 2.0.0 (/opt/ros/galactic/share/async_web_server_cpp/cmake)\n'}
+[6.095093] (-) TimerEvent: {}
+[6.195521] (-) TimerEvent: {}
+[6.295962] (-) TimerEvent: {}
+[6.396609] (-) TimerEvent: {}
+[6.497145] (-) TimerEvent: {}
+[6.597689] (-) TimerEvent: {}
+[6.698167] (-) TimerEvent: {}
+[6.798661] (-) TimerEvent: {}
+[6.899153] (-) TimerEvent: {}
+[6.999678] (-) TimerEvent: {}
+[7.100184] (-) TimerEvent: {}
+[7.200652] (-) TimerEvent: {}
+[7.301217] (-) TimerEvent: {}
+[7.401762] (-) TimerEvent: {}
+[7.502209] (-) TimerEvent: {}
+[7.602729] (-) TimerEvent: {}
+[7.703251] (-) TimerEvent: {}
+[7.803765] (-) TimerEvent: {}
+[7.904329] (-) TimerEvent: {}
+[8.004820] (-) TimerEvent: {}
+[8.105348] (-) TimerEvent: {}
+[8.205775] (-) TimerEvent: {}
+[8.306254] (-) TimerEvent: {}
+[8.406762] (-) TimerEvent: {}
+[8.507245] (-) TimerEvent: {}
+[8.607740] (-) TimerEvent: {}
+[8.708276] (-) TimerEvent: {}
+[8.808730] (-) TimerEvent: {}
+[8.909223] (-) TimerEvent: {}
+[9.009746] (-) TimerEvent: {}
+[9.110242] (-) TimerEvent: {}
+[9.210704] (-) TimerEvent: {}
+[9.311198] (-) TimerEvent: {}
+[9.411687] (-) TimerEvent: {}
+[9.512204] (-) TimerEvent: {}
+[9.584836] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: filesystem regex thread \n'}
+[9.602059] (web_video_server) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/galactic/share/cv_bridge/cmake)\n'}
+[9.612388] (-) TimerEvent: {}
+[9.683246] (web_video_server) StdoutLine: {'line': b'-- Found image_transport: 2.3.1 (/opt/ros/galactic/share/image_transport/cmake)\n'}
+[9.712552] (-) TimerEvent: {}
+[9.812909] (-) TimerEvent: {}
+[9.841342] (web_video_server) StdoutLine: {'line': b'-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c\n'}
+[9.858971] (web_video_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[9.913046] (-) TimerEvent: {}
+[9.937631] (web_video_server) StdoutLine: {'line': b'-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp\n'}
+[10.013265] (-) TimerEvent: {}
+[10.113731] (-) TimerEvent: {}
+[10.210530] (web_video_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[10.213831] (-) TimerEvent: {}
+[10.218193] (web_video_server) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[10.307817] (web_video_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[10.313972] (-) TimerEvent: {}
+[10.314588] (web_video_server) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.414255] (-) TimerEvent: {}
+[10.514706] (-) TimerEvent: {}
+[10.615099] (-) TimerEvent: {}
+[10.715438] (-) TimerEvent: {}
+[10.815823] (-) TimerEvent: {}
+[10.916302] (-) TimerEvent: {}
+[11.016879] (-) TimerEvent: {}
+[11.117377] (-) TimerEvent: {}
+[11.217733] (-) TimerEvent: {}
+[11.318112] (-) TimerEvent: {}
+[11.418434] (-) TimerEvent: {}
+[11.518762] (-) TimerEvent: {}
+[11.619055] (-) TimerEvent: {}
+[11.719420] (-) TimerEvent: {}
+[11.819799] (-) TimerEvent: {}
+[11.832277] (web_video_server) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[11.846289] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[11.876615] (web_video_server) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[11.880887] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[11.919979] (-) TimerEvent: {}
+[12.020418] (-) TimerEvent: {}
+[12.051517] (web_video_server) StdoutLine: {'line': b'--   Found libavcodec, version 58.54.100\n'}
+[12.120605] (-) TimerEvent: {}
+[12.221053] (-) TimerEvent: {}
+[12.321542] (-) TimerEvent: {}
+[12.422080] (-) TimerEvent: {}
+[12.522552] (-) TimerEvent: {}
+[12.559056] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[12.622754] (-) TimerEvent: {}
+[12.723243] (-) TimerEvent: {}
+[12.735780] (web_video_server) StdoutLine: {'line': b'--   Found libavformat, version 58.29.100\n'}
+[12.823526] (-) TimerEvent: {}
+[12.924024] (-) TimerEvent: {}
+[13.024532] (-) TimerEvent: {}
+[13.125009] (-) TimerEvent: {}
+[13.225515] (-) TimerEvent: {}
+[13.273581] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[13.325718] (-) TimerEvent: {}
+[13.426210] (-) TimerEvent: {}
+[13.465150] (web_video_server) StdoutLine: {'line': b'--   Found libavutil, version 56.31.100\n'}
+[13.526454] (-) TimerEvent: {}
+[13.626971] (-) TimerEvent: {}
+[13.727448] (-) TimerEvent: {}
+[13.827962] (-) TimerEvent: {}
+[13.928537] (-) TimerEvent: {}
+[13.971253] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[14.028742] (-) TimerEvent: {}
+[14.129245] (-) TimerEvent: {}
+[14.147230] (web_video_server) StdoutLine: {'line': b'--   Found libswscale, version 5.5.100\n'}
+[14.229491] (-) TimerEvent: {}
+[14.329937] (-) TimerEvent: {}
+[14.430361] (-) TimerEvent: {}
+[14.530855] (-) TimerEvent: {}
+[14.631291] (-) TimerEvent: {}
+[14.731695] (-) TimerEvent: {}
+[14.832159] (-) TimerEvent: {}
+[14.932569] (-) TimerEvent: {}
+[15.032997] (-) TimerEvent: {}
+[15.133434] (-) TimerEvent: {}
+[15.187058] (web_video_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.233602] (-) TimerEvent: {}
+[15.333921] (-) TimerEvent: {}
+[15.354831] (web_video_server) StdoutLine: {'line': b'-- Generating done\n'}
+[15.363210] (web_video_server) StdoutLine: {'line': b'-- Build files have been written to: /ros_ws/build_aarch64/web_video_server\n'}
+[15.386828] (web_video_server) CommandEnded: {'returncode': 0}
+[15.396547] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'build'}
+[15.396696] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/build_aarch64/web_video_server', '--', '-j16', '-l16'], 'cwd': '/ros_ws/build_aarch64/web_video_server', 'env': OrderedDict([('COLCON', '1'), ('TARGET_ARCH', 'aarch64'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ros_ws/build_aarch64/web_video_server'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('LANG', 'en_US.UTF-8'), ('COLCON_DEFAULTS_FILE', '/root/defaults.yaml'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'galactic'), ('OWNER_USER', '1000'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('SHLVL', '1'), ('HOSTNAME', 'OVO-D3DKDK3'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[15.434064] (-) TimerEvent: {}
+[15.534491] (-) TimerEvent: {}
+[15.634928] (-) TimerEvent: {}
+[15.735403] (-) TimerEvent: {}
+[15.835886] (-) TimerEvent: {}
+[15.936314] (-) TimerEvent: {}
+[16.036747] (-) TimerEvent: {}
+[16.137273] (-) TimerEvent: {}
+[16.237651] (-) TimerEvent: {}
+[16.338064] (-) TimerEvent: {}
+[16.364325] (web_video_server) StdoutLine: {'line': b'Scanning dependencies of target web_video_server\n'}
+[16.438276] (-) TimerEvent: {}
+[16.538820] (-) TimerEvent: {}
+[16.597417] (web_video_server) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o\n'}
+[16.598121] (web_video_server) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/web_video_server.dir/src/vp9_streamer.cpp.o\n'}
+[16.606386] (web_video_server) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/web_video_server.dir/src/ros_compressed_streamer.cpp.o\n'}
+[16.606944] (web_video_server) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/web_video_server.dir/src/jpeg_streamers.cpp.o\n'}
+[16.616108] (web_video_server) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o\n'}
+[16.616636] (web_video_server) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o\n'}
+[16.625828] (web_video_server) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o\n'}
+[16.627051] (web_video_server) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/web_video_server.dir/src/multipart_stream.cpp.o\n'}
+[16.627575] (web_video_server) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o\n'}
+[16.637114] (web_video_server) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/web_video_server.dir/src/png_streamers.cpp.o\n'}
+[16.638898] (-) TimerEvent: {}
+[16.739443] (-) TimerEvent: {}
+[16.840206] (-) TimerEvent: {}
+[16.941005] (-) TimerEvent: {}
+[17.041789] (-) TimerEvent: {}
+[17.142550] (-) TimerEvent: {}
+[17.243361] (-) TimerEvent: {}
+[17.344133] (-) TimerEvent: {}
+[17.444978] (-) TimerEvent: {}
+[17.545759] (-) TimerEvent: {}
+[17.646544] (-) TimerEvent: {}
+[17.747333] (-) TimerEvent: {}
+[17.848153] (-) TimerEvent: {}
+[17.948923] (-) TimerEvent: {}
+[18.049730] (-) TimerEvent: {}
+[18.150514] (-) TimerEvent: {}
+[18.251301] (-) TimerEvent: {}
+[18.352129] (-) TimerEvent: {}
+[18.452861] (-) TimerEvent: {}
+[18.553599] (-) TimerEvent: {}
+[18.654334] (-) TimerEvent: {}
+[18.755085] (-) TimerEvent: {}
+[18.855850] (-) TimerEvent: {}
+[18.956575] (-) TimerEvent: {}
+[19.057350] (-) TimerEvent: {}
+[19.158174] (-) TimerEvent: {}
+[19.259002] (-) TimerEvent: {}
+[19.359771] (-) TimerEvent: {}
+[19.460559] (-) TimerEvent: {}
+[19.561329] (-) TimerEvent: {}
+[19.662084] (-) TimerEvent: {}
+[19.762910] (-) TimerEvent: {}
+[19.863717] (-) TimerEvent: {}
+[19.964504] (-) TimerEvent: {}
+[20.065320] (-) TimerEvent: {}
+[20.166160] (-) TimerEvent: {}
+[20.266974] (-) TimerEvent: {}
+[20.380494] (-) TimerEvent: {}
+[20.481267] (-) TimerEvent: {}
+[20.582298] (-) TimerEvent: {}
+[20.683090] (-) TimerEvent: {}
+[20.783894] (-) TimerEvent: {}
+[20.884751] (-) TimerEvent: {}
+[20.988041] (-) TimerEvent: {}
+[21.088865] (-) TimerEvent: {}
+[21.189715] (-) TimerEvent: {}
+[21.290547] (-) TimerEvent: {}
+[21.391316] (-) TimerEvent: {}
+[21.492135] (-) TimerEvent: {}
+[21.592880] (-) TimerEvent: {}
+[21.693674] (-) TimerEvent: {}
+[21.794491] (-) TimerEvent: {}
+[21.895208] (-) TimerEvent: {}
+[21.995927] (-) TimerEvent: {}
+[22.096719] (-) TimerEvent: {}
+[22.197597] (-) TimerEvent: {}
+[22.298403] (-) TimerEvent: {}
+[22.399199] (-) TimerEvent: {}
+[22.500030] (-) TimerEvent: {}
+[22.600886] (-) TimerEvent: {}
+[22.701715] (-) TimerEvent: {}
+[22.802545] (-) TimerEvent: {}
+[22.903447] (-) TimerEvent: {}
+[23.004270] (-) TimerEvent: {}
+[23.107491] (-) TimerEvent: {}
+[23.208344] (-) TimerEvent: {}
+[23.309150] (-) TimerEvent: {}
+[23.409972] (-) TimerEvent: {}
+[23.510815] (-) TimerEvent: {}
+[23.611698] (-) TimerEvent: {}
+[23.712533] (-) TimerEvent: {}
+[23.813383] (-) TimerEvent: {}
+[23.914249] (-) TimerEvent: {}
+[24.015109] (-) TimerEvent: {}
+[24.115943] (-) TimerEvent: {}
+[24.216797] (-) TimerEvent: {}
+[24.317623] (-) TimerEvent: {}
+[24.418511] (-) TimerEvent: {}
+[24.519336] (-) TimerEvent: {}
+[24.620162] (-) TimerEvent: {}
+[24.721018] (-) TimerEvent: {}
+[24.821914] (-) TimerEvent: {}
+[24.922751] (-) TimerEvent: {}
+[25.023618] (-) TimerEvent: {}
+[25.124550] (-) TimerEvent: {}
+[25.225453] (-) TimerEvent: {}
+[25.326327] (-) TimerEvent: {}
+[25.427207] (-) TimerEvent: {}
+[25.528013] (-) TimerEvent: {}
+[25.628905] (-) TimerEvent: {}
+[25.729857] (-) TimerEvent: {}
+[25.830704] (-) TimerEvent: {}
+[25.931566] (-) TimerEvent: {}
+[26.032481] (-) TimerEvent: {}
+[26.133355] (-) TimerEvent: {}
+[26.234239] (-) TimerEvent: {}
+[26.335127] (-) TimerEvent: {}
+[26.435996] (-) TimerEvent: {}
+[26.536913] (-) TimerEvent: {}
+[26.637799] (-) TimerEvent: {}
+[26.738702] (-) TimerEvent: {}
+[26.839702] (-) TimerEvent: {}
+[26.940692] (-) TimerEvent: {}
+[27.041609] (-) TimerEvent: {}
+[27.142485] (-) TimerEvent: {}
+[27.243395] (-) TimerEvent: {}
+[27.344288] (-) TimerEvent: {}
+[27.445196] (-) TimerEvent: {}
+[27.546064] (-) TimerEvent: {}
+[27.646969] (-) TimerEvent: {}
+[27.747824] (-) TimerEvent: {}
+[27.848672] (-) TimerEvent: {}
+[27.949506] (-) TimerEvent: {}
+[28.050353] (-) TimerEvent: {}
+[28.151204] (-) TimerEvent: {}
+[28.252073] (-) TimerEvent: {}
+[28.352978] (-) TimerEvent: {}
+[28.453885] (-) TimerEvent: {}
+[28.554745] (-) TimerEvent: {}
+[28.655622] (-) TimerEvent: {}
+[28.756515] (-) TimerEvent: {}
+[28.857362] (-) TimerEvent: {}
+[28.958246] (-) TimerEvent: {}
+[29.059126] (-) TimerEvent: {}
+[29.159950] (-) TimerEvent: {}
+[29.260772] (-) TimerEvent: {}
+[29.361600] (-) TimerEvent: {}
+[29.462448] (-) TimerEvent: {}
+[29.563352] (-) TimerEvent: {}
+[29.664243] (-) TimerEvent: {}
+[29.765097] (-) TimerEvent: {}
+[29.865979] (-) TimerEvent: {}
+[29.966856] (-) TimerEvent: {}
+[30.067731] (-) TimerEvent: {}
+[30.168629] (-) TimerEvent: {}
+[30.269519] (-) TimerEvent: {}
+[30.370361] (-) TimerEvent: {}
+[30.471220] (-) TimerEvent: {}
+[30.572105] (-) TimerEvent: {}
+[30.672994] (-) TimerEvent: {}
+[30.773869] (-) TimerEvent: {}
+[30.874780] (-) TimerEvent: {}
+[30.975653] (-) TimerEvent: {}
+[31.076563] (-) TimerEvent: {}
+[31.177476] (-) TimerEvent: {}
+[31.278343] (-) TimerEvent: {}
+[31.379183] (-) TimerEvent: {}
+[31.480108] (-) TimerEvent: {}
+[31.580986] (-) TimerEvent: {}
+[31.681838] (-) TimerEvent: {}
+[31.782630] (-) TimerEvent: {}
+[31.883493] (-) TimerEvent: {}
+[31.984413] (-) TimerEvent: {}
+[32.085322] (-) TimerEvent: {}
+[32.186189] (-) TimerEvent: {}
+[32.287115] (-) TimerEvent: {}
+[32.388047] (-) TimerEvent: {}
+[32.488905] (-) TimerEvent: {}
+[32.589742] (-) TimerEvent: {}
+[32.690609] (-) TimerEvent: {}
+[32.791481] (-) TimerEvent: {}
+[32.892320] (-) TimerEvent: {}
+[32.993198] (-) TimerEvent: {}
+[33.094072] (-) TimerEvent: {}
+[33.194931] (-) TimerEvent: {}
+[33.295853] (-) TimerEvent: {}
+[33.396764] (-) TimerEvent: {}
+[33.497709] (-) TimerEvent: {}
+[33.598668] (-) TimerEvent: {}
+[33.699563] (-) TimerEvent: {}
+[33.800490] (-) TimerEvent: {}
+[33.901426] (-) TimerEvent: {}
+[34.002321] (-) TimerEvent: {}
+[34.103199] (-) TimerEvent: {}
+[34.204048] (-) TimerEvent: {}
+[34.304920] (-) TimerEvent: {}
+[34.405795] (-) TimerEvent: {}
+[34.506687] (-) TimerEvent: {}
+[34.607583] (-) TimerEvent: {}
+[34.708452] (-) TimerEvent: {}
+[34.809281] (-) TimerEvent: {}
+[34.910152] (-) TimerEvent: {}
+[35.011085] (-) TimerEvent: {}
+[35.112034] (-) TimerEvent: {}
+[35.212955] (-) TimerEvent: {}
+[35.313878] (-) TimerEvent: {}
+[35.414761] (-) TimerEvent: {}
+[35.515648] (-) TimerEvent: {}
+[35.617541] (-) TimerEvent: {}
+[35.718303] (-) TimerEvent: {}
+[35.819197] (-) TimerEvent: {}
+[35.920029] (-) TimerEvent: {}
+[36.020893] (-) TimerEvent: {}
+[36.121748] (-) TimerEvent: {}
+[36.222648] (-) TimerEvent: {}
+[36.323578] (-) TimerEvent: {}
+[36.424460] (-) TimerEvent: {}
+[36.525339] (-) TimerEvent: {}
+[36.626242] (-) TimerEvent: {}
+[36.727143] (-) TimerEvent: {}
+[36.827999] (-) TimerEvent: {}
+[36.928810] (-) TimerEvent: {}
+[37.029610] (-) TimerEvent: {}
+[37.130386] (-) TimerEvent: {}
+[37.231180] (-) TimerEvent: {}
+[37.332514] (-) TimerEvent: {}
+[37.433305] (-) TimerEvent: {}
+[37.534136] (-) TimerEvent: {}
+[37.635069] (-) TimerEvent: {}
+[37.735941] (-) TimerEvent: {}
+[37.836881] (-) TimerEvent: {}
+[37.937716] (-) TimerEvent: {}
+[38.038599] (-) TimerEvent: {}
+[38.139470] (-) TimerEvent: {}
+[38.240361] (-) TimerEvent: {}
+[38.341223] (-) TimerEvent: {}
+[38.442080] (-) TimerEvent: {}
+[38.542950] (-) TimerEvent: {}
+[38.643837] (-) TimerEvent: {}
+[38.744733] (-) TimerEvent: {}
+[38.845584] (-) TimerEvent: {}
+[38.946468] (-) TimerEvent: {}
+[39.047439] (-) TimerEvent: {}
+[39.148443] (-) TimerEvent: {}
+[39.249367] (-) TimerEvent: {}
+[39.350281] (-) TimerEvent: {}
+[39.451175] (-) TimerEvent: {}
+[39.552063] (-) TimerEvent: {}
+[39.652956] (-) TimerEvent: {}
+[39.753841] (-) TimerEvent: {}
+[39.854768] (-) TimerEvent: {}
+[39.955699] (-) TimerEvent: {}
+[40.056602] (-) TimerEvent: {}
+[40.159414] (-) TimerEvent: {}
+[40.260521] (-) TimerEvent: {}
+[40.361489] (-) TimerEvent: {}
+[40.464021] (-) TimerEvent: {}
+[40.568366] (-) TimerEvent: {}
+[40.669367] (-) TimerEvent: {}
+[40.778317] (-) TimerEvent: {}
+[40.886716] (-) TimerEvent: {}
+[41.010682] (-) TimerEvent: {}
+[41.120771] (-) TimerEvent: {}
+[41.480870] (-) TimerEvent: {}
+[42.013631] (-) TimerEvent: {}
+[43.217287] (-) TimerEvent: {}
+[43.318559] (-) TimerEvent: {}
+[43.419509] (-) TimerEvent: {}
+[43.520388] (-) TimerEvent: {}
+[43.621291] (-) TimerEvent: {}
+[43.722186] (-) TimerEvent: {}
+[43.823118] (-) TimerEvent: {}
+[43.923984] (-) TimerEvent: {}
+[44.024811] (-) TimerEvent: {}
+[44.125582] (-) TimerEvent: {}
+[44.226496] (-) TimerEvent: {}
+[44.327393] (-) TimerEvent: {}
+[44.428300] (-) TimerEvent: {}
+[44.529179] (-) TimerEvent: {}
+[44.629901] (-) TimerEvent: {}
+[44.730452] (-) TimerEvent: {}
+[44.831126] (-) TimerEvent: {}
+[44.932000] (-) TimerEvent: {}
+[45.033064] (-) TimerEvent: {}
+[45.133978] (-) TimerEvent: {}
+[45.234924] (-) TimerEvent: {}
+[45.335743] (-) TimerEvent: {}
+[45.436656] (-) TimerEvent: {}
+[45.537545] (-) TimerEvent: {}
+[45.638426] (-) TimerEvent: {}
+[45.739305] (-) TimerEvent: {}
+[45.841953] (-) TimerEvent: {}
+[45.949575] (-) TimerEvent: {}
+[46.066428] (-) TimerEvent: {}
+[46.849823] (-) TimerEvent: {}
+[46.952088] (-) TimerEvent: {}
+[47.053088] (-) TimerEvent: {}
+[47.153980] (-) TimerEvent: {}
+[47.254954] (-) TimerEvent: {}
+[47.355928] (-) TimerEvent: {}
+[47.456872] (-) TimerEvent: {}
+[47.557801] (-) TimerEvent: {}
+[47.658743] (-) TimerEvent: {}
+[47.759765] (-) TimerEvent: {}
+[47.860745] (-) TimerEvent: {}
+[47.961699] (-) TimerEvent: {}
+[48.062498] (-) TimerEvent: {}
+[48.163629] (-) TimerEvent: {}
+[48.264452] (-) TimerEvent: {}
+[48.365126] (-) TimerEvent: {}
+[48.465778] (-) TimerEvent: {}
+[48.566467] (-) TimerEvent: {}
+[48.667242] (-) TimerEvent: {}
+[48.768226] (-) TimerEvent: {}
+[48.869148] (-) TimerEvent: {}
+[48.970263] (-) TimerEvent: {}
+[49.071223] (-) TimerEvent: {}
+[49.172237] (-) TimerEvent: {}
+[49.273196] (-) TimerEvent: {}
+[49.375629] (-) TimerEvent: {}
+[49.477148] (-) TimerEvent: {}
+[49.577974] (-) TimerEvent: {}
+[49.678996] (-) TimerEvent: {}
+[49.781440] (-) TimerEvent: {}
+[49.883800] (-) TimerEvent: {}
+[49.991829] (-) TimerEvent: {}
+[50.096049] (-) TimerEvent: {}
+[50.209535] (-) TimerEvent: {}
+[50.373429] (-) TimerEvent: {}
+[50.690683] (-) TimerEvent: {}
+[51.374616] (-) TimerEvent: {}
+[51.890493] (-) TimerEvent: {}
+[52.264396] (-) TimerEvent: {}
+[52.683939] (-) TimerEvent: {}
+[52.785144] (-) TimerEvent: {}
+[52.886011] (-) TimerEvent: {}
+[52.986818] (-) TimerEvent: {}
+[53.087594] (-) TimerEvent: {}
+[53.188414] (-) TimerEvent: {}
+[53.289065] (-) TimerEvent: {}
+[53.389732] (-) TimerEvent: {}
+[53.490451] (-) TimerEvent: {}
+[53.591108] (-) TimerEvent: {}
+[53.691842] (-) TimerEvent: {}
+[53.792806] (-) TimerEvent: {}
+[53.893569] (-) TimerEvent: {}
+[53.994312] (-) TimerEvent: {}
+[54.095387] (-) TimerEvent: {}
+[54.196577] (-) TimerEvent: {}
+[54.300497] (-) TimerEvent: {}
+[54.408017] (-) TimerEvent: {}
+[54.510448] (-) TimerEvent: {}
+[54.629060] (-) TimerEvent: {}
+[54.896340] (-) TimerEvent: {}
+[54.998330] (-) TimerEvent: {}
+[55.099184] (-) TimerEvent: {}
+[55.200153] (-) TimerEvent: {}
+[55.301306] (-) TimerEvent: {}
+[55.402723] (-) TimerEvent: {}
+[55.503621] (-) TimerEvent: {}
+[55.604715] (-) TimerEvent: {}
+[55.705953] (-) TimerEvent: {}
+[55.806788] (-) TimerEvent: {}
+[55.907642] (-) TimerEvent: {}
+[56.008577] (-) TimerEvent: {}
+[56.109671] (-) TimerEvent: {}
+[56.210983] (-) TimerEvent: {}
+[56.311833] (-) TimerEvent: {}
+[56.412672] (-) TimerEvent: {}
+[56.513489] (-) TimerEvent: {}
+[56.614379] (-) TimerEvent: {}
+[56.713362] (web_video_server) StderrLine: {'line': b'/ros_ws/src/ros_compressed_streamer.cpp: In member function \xe2\x80\x98virtual void web_video_server::RosCompressedStreamer::restreamFrame(double)\xe2\x80\x99:\n'}
+[56.716783] (-) TimerEvent: {}
+[56.717101] (web_video_server) StderrLine: {'line': b'/ros_ws/src/ros_compressed_streamer.cpp:30:45: warning: \xe2\x80\x98rclcpp::Duration::Duration(rcl_duration_value_t)\xe2\x80\x99 is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [-Wdeprecated-declarations]\n'}
+[56.718261] (web_video_server) StderrLine: {'line': b'   30 |   if ( last_frame + rclcpp::Duration(max_age) < nh_->now() ) {\n'}
+[56.719050] (web_video_server) StderrLine: {'line': b'      |                                             ^\n'}
+[56.719741] (web_video_server) StderrLine: {'line': b'In file included from /opt/ros/galactic/include/rclcpp/qos.hpp:20,\n'}
+[56.720427] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31,\n'}
+[56.720955] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/client.hpp:34,\n'}
+[56.721409] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,\n'}
+[56.721830] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,\n'}
+[56.722246] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,\n'}
+[56.722659] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,\n'}
+[56.723067] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,\n'}
+[56.723474] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,\n'}
+[56.723883] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,\n'}
+[56.724319] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,\n'}
+[56.724809] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,\n'}
+[56.725375] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/include/web_video_server/image_streamer.h:4,\n'}
+[56.725878] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/include/web_video_server/ros_compressed_streamer.h:5,\n'}
+[56.726433] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/ros_compressed_streamer.cpp:1:\n'}
+[56.726925] (web_video_server) StderrLine: {'line': b'/opt/ros/galactic/include/rclcpp/duration.hpp:46:12: note: declared here\n'}
+[56.727483] (web_video_server) StderrLine: {'line': b'   46 |   explicit Duration(rcl_duration_value_t nanoseconds);\n'}
+[56.727984] (web_video_server) StderrLine: {'line': b'      |            ^~~~~~~~\n'}
+[56.817153] (-) TimerEvent: {}
+[56.918000] (-) TimerEvent: {}
+[57.018842] (-) TimerEvent: {}
+[57.119730] (-) TimerEvent: {}
+[57.220618] (-) TimerEvent: {}
+[57.321461] (-) TimerEvent: {}
+[57.422328] (-) TimerEvent: {}
+[57.523190] (-) TimerEvent: {}
+[57.529351] (web_video_server) StderrLine: {'line': b'/ros_ws/src/image_streamer.cpp: In member function \xe2\x80\x98virtual void web_video_server::ImageTransportImageStreamer::restreamFrame(double)\xe2\x80\x99:\n'}
+[57.533062] (web_video_server) StderrLine: {'line': b'/ros_ws/src/image_streamer.cpp:61:47: warning: \xe2\x80\x98rclcpp::Duration::Duration(rcl_duration_value_t)\xe2\x80\x99 is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [-Wdeprecated-declarations]\n'}
+[57.534257] (web_video_server) StderrLine: {'line': b'   61 |     if ( last_frame + rclcpp::Duration(max_age) < nh_->now() ) {\n'}
+[57.535298] (web_video_server) StderrLine: {'line': b'      |                                               ^\n'}
+[57.536137] (web_video_server) StderrLine: {'line': b'In file included from /opt/ros/galactic/include/rclcpp/qos.hpp:20,\n'}
+[57.536974] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31,\n'}
+[57.537736] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/client.hpp:34,\n'}
+[57.538564] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:23,\n'}
+[57.539313] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,\n'}
+[57.540074] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,\n'}
+[57.540904] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,\n'}
+[57.541719] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,\n'}
+[57.542490] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,\n'}
+[57.543261] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,\n'}
+[57.544058] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,\n'}
+[57.544872] (web_video_server) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,\n'}
+[57.545617] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/include/web_video_server/image_streamer.h:4,\n'}
+[57.546438] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/image_streamer.cpp:1:\n'}
+[57.547247] (web_video_server) StderrLine: {'line': b'/opt/ros/galactic/include/rclcpp/duration.hpp:46:12: note: declared here\n'}
+[57.548017] (web_video_server) StderrLine: {'line': b'   46 |   explicit Duration(rcl_duration_value_t nanoseconds);\n'}
+[57.548813] (web_video_server) StderrLine: {'line': b'      |            ^~~~~~~~\n'}
+[57.623533] (-) TimerEvent: {}
+[57.724415] (-) TimerEvent: {}
+[57.825310] (-) TimerEvent: {}
+[57.926228] (-) TimerEvent: {}
+[58.027121] (-) TimerEvent: {}
+[58.128010] (-) TimerEvent: {}
+[58.228979] (-) TimerEvent: {}
+[58.329868] (-) TimerEvent: {}
+[58.430733] (-) TimerEvent: {}
+[58.531656] (-) TimerEvent: {}
+[58.632543] (-) TimerEvent: {}
+[58.733377] (-) TimerEvent: {}
+[58.834248] (-) TimerEvent: {}
+[58.935107] (-) TimerEvent: {}
+[59.035978] (-) TimerEvent: {}
+[59.136864] (-) TimerEvent: {}
+[59.237758] (-) TimerEvent: {}
+[59.338683] (-) TimerEvent: {}
+[59.439554] (-) TimerEvent: {}
+[59.540492] (-) TimerEvent: {}
+[59.641370] (-) TimerEvent: {}
+[59.742349] (-) TimerEvent: {}
+[59.843377] (-) TimerEvent: {}
+[59.944295] (-) TimerEvent: {}
+[60.044855] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp: In constructor \xe2\x80\x98web_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)\xe2\x80\x99:\n'}
+[60.046482] (-) TimerEvent: {}
+[60.046805] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp:65:55: warning: \xe2\x80\x98int av_lockmgr_register(int (*)(void**, AVLockOp))\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[60.047776] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager);\n'}
+[60.050841] (web_video_server) StderrLine: {'line': b'      |                                                       ^\n'}
+[60.053633] (web_video_server) StderrLine: {'line': b'In file included from /ros_ws/include/web_video_server/libav_streamer.h:11,\n'}
+[60.054695] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/libav_streamer.cpp:1:\n'}
+[60.055601] (web_video_server) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:6163:5: note: declared here\n'}
+[60.056455] (web_video_server) StderrLine: {'line': b' 6163 | int av_lockmgr_register(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[60.057241] (web_video_server) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~\n'}
+[60.057995] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp:65:55: warning: \xe2\x80\x98int av_lockmgr_register(int (*)(void**, AVLockOp))\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[60.058733] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager);\n'}
+[60.059526] (web_video_server) StderrLine: {'line': b'      |                                                       ^\n'}
+[60.060287] (web_video_server) StderrLine: {'line': b'In file included from /ros_ws/include/web_video_server/libav_streamer.h:11,\n'}
+[60.061079] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/libav_streamer.cpp:1:\n'}
+[60.061848] (web_video_server) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:6163:5: note: declared here\n'}
+[60.062590] (web_video_server) StderrLine: {'line': b' 6163 | int av_lockmgr_register(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[60.063354] (web_video_server) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~\n'}
+[60.064049] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp:66:19: warning: \xe2\x80\x98void av_register_all()\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[60.064873] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all();\n'}
+[60.066104] (web_video_server) StderrLine: {'line': b'      |                   ^\n'}
+[60.080564] (web_video_server) StderrLine: {'line': b'In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,\n'}
+[60.081717] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/libav_streamer.cpp:1:\n'}
+[60.082650] (web_video_server) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/libavformat/avformat.h:2050:6: note: declared here\n'}
+[60.083458] (web_video_server) StderrLine: {'line': b' 2050 | void av_register_all(void);\n'}
+[60.084265] (web_video_server) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~\n'}
+[60.085044] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp:66:19: warning: \xe2\x80\x98void av_register_all()\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[60.085801] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all();\n'}
+[60.086514] (web_video_server) StderrLine: {'line': b'      |                   ^\n'}
+[60.087222] (web_video_server) StderrLine: {'line': b'In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,\n'}
+[60.087913] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/libav_streamer.cpp:1:\n'}
+[60.088613] (web_video_server) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/libavformat/avformat.h:2050:6: note: declared here\n'}
+[60.089339] (web_video_server) StderrLine: {'line': b' 2050 | void av_register_all(void);\n'}
+[60.090083] (web_video_server) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~\n'}
+[60.090788] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp: In member function \xe2\x80\x98virtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)\xe2\x80\x99:\n'}
+[60.091542] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp:160:35: warning: \xe2\x80\x98AVStream::codec\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[60.092252] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->codec;\n'}
+[60.092945] (web_video_server) StderrLine: {'line': b'      |                                   ^~~~~\n'}
+[60.093647] (web_video_server) StderrLine: {'line': b'In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,\n'}
+[60.094331] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/libav_streamer.cpp:1:\n'}
+[60.095010] (web_video_server) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21: note: declared here\n'}
+[60.095742] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *codec;\n'}
+[60.096468] (web_video_server) StderrLine: {'line': b'      |                     ^~~~~\n'}
+[60.097223] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp:160:35: warning: \xe2\x80\x98AVStream::codec\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[60.097962] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->codec;\n'}
+[60.098654] (web_video_server) StderrLine: {'line': b'      |                                   ^~~~~\n'}
+[60.099336] (web_video_server) StderrLine: {'line': b'In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,\n'}
+[60.099996] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/libav_streamer.cpp:1:\n'}
+[60.100693] (web_video_server) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21: note: declared here\n'}
+[60.101386] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *codec;\n'}
+[60.102107] (web_video_server) StderrLine: {'line': b'      |                     ^~~~~\n'}
+[60.102791] (web_video_server) StderrLine: {'line': b'/ros_ws/src/libav_streamer.cpp:160:35: warning: \xe2\x80\x98AVStream::codec\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[60.103513] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->codec;\n'}
+[60.104260] (web_video_server) StderrLine: {'line': b'      |                                   ^~~~~\n'}
+[60.104991] (web_video_server) StderrLine: {'line': b'In file included from /ros_ws/include/web_video_server/libav_streamer.h:12,\n'}
+[60.105743] (web_video_server) StderrLine: {'line': b'                 from /ros_ws/src/libav_streamer.cpp:1:\n'}
+[60.106526] (web_video_server) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21: note: declared here\n'}
+[60.107299] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *codec;\n'}
+[60.108061] (web_video_server) StderrLine: {'line': b'      |                     ^~~~~\n'}
+[60.146884] (-) TimerEvent: {}
+[60.247753] (-) TimerEvent: {}
+[60.348692] (-) TimerEvent: {}
+[60.449573] (-) TimerEvent: {}
+[60.550441] (-) TimerEvent: {}
+[60.651366] (-) TimerEvent: {}
+[60.752339] (-) TimerEvent: {}
+[60.853308] (-) TimerEvent: {}
+[60.954295] (-) TimerEvent: {}
+[61.055243] (-) TimerEvent: {}
+[61.156257] (-) TimerEvent: {}
+[61.257208] (-) TimerEvent: {}
+[61.358275] (-) TimerEvent: {}
+[61.459317] (-) TimerEvent: {}
+[61.560334] (-) TimerEvent: {}
+[61.661336] (-) TimerEvent: {}
+[61.762304] (-) TimerEvent: {}
+[61.863256] (-) TimerEvent: {}
+[61.964158] (-) TimerEvent: {}
+[62.065029] (-) TimerEvent: {}
+[62.165798] (-) TimerEvent: {}
+[62.266903] (-) TimerEvent: {}
+[62.368474] (-) TimerEvent: {}
+[62.481656] (-) TimerEvent: {}
+[62.595172] (-) TimerEvent: {}
+[62.699599] (-) TimerEvent: {}
+[62.822250] (-) TimerEvent: {}
+[63.002517] (-) TimerEvent: {}
+[63.742159] (-) TimerEvent: {}
+[64.513172] (-) TimerEvent: {}
+[65.439112] (-) TimerEvent: {}
+[65.540882] (-) TimerEvent: {}
+[65.642067] (-) TimerEvent: {}
+[65.746434] (-) TimerEvent: {}
+[65.847351] (-) TimerEvent: {}
+[65.948264] (-) TimerEvent: {}
+[66.049316] (-) TimerEvent: {}
+[66.150358] (-) TimerEvent: {}
+[66.251365] (-) TimerEvent: {}
+[66.352661] (-) TimerEvent: {}
+[66.458100] (-) TimerEvent: {}
+[66.563255] (-) TimerEvent: {}
+[66.676295] (-) TimerEvent: {}
+[66.784252] (-) TimerEvent: {}
+[66.915513] (-) TimerEvent: {}
+[67.023358] (-) TimerEvent: {}
+[67.136426] (-) TimerEvent: {}
+[67.243536] (-) TimerEvent: {}
+[67.366902] (-) TimerEvent: {}
+[67.569716] (-) TimerEvent: {}
+[67.937046] (-) TimerEvent: {}
+[69.044148] (-) TimerEvent: {}
+[69.823758] (-) TimerEvent: {}
+[70.804576] (-) TimerEvent: {}
+[70.909588] (-) TimerEvent: {}
+[71.010519] (-) TimerEvent: {}
+[71.111625] (-) TimerEvent: {}
+[71.212470] (-) TimerEvent: {}
+[71.313278] (-) TimerEvent: {}
+[71.414232] (-) TimerEvent: {}
+[71.515099] (-) TimerEvent: {}
+[71.615846] (-) TimerEvent: {}
+[71.716687] (-) TimerEvent: {}
+[71.817761] (-) TimerEvent: {}
+[71.918573] (-) TimerEvent: {}
+[72.019359] (-) TimerEvent: {}
+[72.120237] (-) TimerEvent: {}
+[72.221412] (-) TimerEvent: {}
+[72.322303] (-) TimerEvent: {}
+[72.423282] (-) TimerEvent: {}
+[72.524349] (-) TimerEvent: {}
+[72.626907] (-) TimerEvent: {}
+[72.733070] (-) TimerEvent: {}
+[72.839845] (-) TimerEvent: {}
+[72.961913] (-) TimerEvent: {}
+[73.088275] (-) TimerEvent: {}
+[73.334824] (-) TimerEvent: {}
+[73.436463] (-) TimerEvent: {}
+[73.537423] (-) TimerEvent: {}
+[73.638335] (-) TimerEvent: {}
+[73.739138] (-) TimerEvent: {}
+[73.840022] (-) TimerEvent: {}
+[73.940816] (-) TimerEvent: {}
+[74.041634] (-) TimerEvent: {}
+[74.142406] (-) TimerEvent: {}
+[74.243047] (-) TimerEvent: {}
+[74.343793] (-) TimerEvent: {}
+[74.444697] (-) TimerEvent: {}
+[74.545428] (-) TimerEvent: {}
+[74.646131] (-) TimerEvent: {}
+[74.746860] (-) TimerEvent: {}
+[74.847785] (-) TimerEvent: {}
+[74.948701] (-) TimerEvent: {}
+[75.049399] (-) TimerEvent: {}
+[75.150180] (-) TimerEvent: {}
+[75.251027] (-) TimerEvent: {}
+[75.351775] (-) TimerEvent: {}
+[75.452478] (-) TimerEvent: {}
+[75.553133] (-) TimerEvent: {}
+[75.653897] (-) TimerEvent: {}
+[75.754725] (-) TimerEvent: {}
+[75.855554] (-) TimerEvent: {}
+[75.956269] (-) TimerEvent: {}
+[76.057135] (-) TimerEvent: {}
+[76.158046] (-) TimerEvent: {}
+[76.259144] (-) TimerEvent: {}
+[76.359984] (-) TimerEvent: {}
+[76.460716] (-) TimerEvent: {}
+[76.561410] (-) TimerEvent: {}
+[76.662013] (-) TimerEvent: {}
+[76.762595] (-) TimerEvent: {}
+[76.863310] (-) TimerEvent: {}
+[76.964249] (-) TimerEvent: {}
+[77.065155] (-) TimerEvent: {}
+[77.166045] (-) TimerEvent: {}
+[77.266924] (-) TimerEvent: {}
+[77.367739] (-) TimerEvent: {}
+[77.468553] (-) TimerEvent: {}
+[77.569370] (-) TimerEvent: {}
+[77.670172] (-) TimerEvent: {}
+[77.770988] (-) TimerEvent: {}
+[77.871873] (-) TimerEvent: {}
+[77.972750] (-) TimerEvent: {}
+[78.073566] (-) TimerEvent: {}
+[78.174400] (-) TimerEvent: {}
+[78.275279] (-) TimerEvent: {}
+[78.376084] (-) TimerEvent: {}
+[78.476928] (-) TimerEvent: {}
+[78.577713] (-) TimerEvent: {}
+[78.678492] (-) TimerEvent: {}
+[78.779038] (-) TimerEvent: {}
+[78.879668] (-) TimerEvent: {}
+[78.980302] (-) TimerEvent: {}
+[79.080849] (-) TimerEvent: {}
+[79.181385] (-) TimerEvent: {}
+[79.281946] (-) TimerEvent: {}
+[79.382558] (-) TimerEvent: {}
+[79.483155] (-) TimerEvent: {}
+[79.583753] (-) TimerEvent: {}
+[79.684397] (-) TimerEvent: {}
+[79.784977] (-) TimerEvent: {}
+[79.885545] (-) TimerEvent: {}
+[79.986148] (-) TimerEvent: {}
+[80.086768] (-) TimerEvent: {}
+[80.187368] (-) TimerEvent: {}
+[80.287922] (-) TimerEvent: {}
+[80.388515] (-) TimerEvent: {}
+[80.489073] (-) TimerEvent: {}
+[80.589692] (-) TimerEvent: {}
+[80.690288] (-) TimerEvent: {}
+[80.790922] (-) TimerEvent: {}
+[80.891525] (-) TimerEvent: {}
+[80.992125] (-) TimerEvent: {}
+[81.092683] (-) TimerEvent: {}
+[81.193253] (-) TimerEvent: {}
+[81.293801] (-) TimerEvent: {}
+[81.394445] (-) TimerEvent: {}
+[81.495033] (-) TimerEvent: {}
+[81.595680] (-) TimerEvent: {}
+[81.696287] (-) TimerEvent: {}
+[81.796811] (-) TimerEvent: {}
+[81.897409] (-) TimerEvent: {}
+[81.998068] (-) TimerEvent: {}
+[82.098732] (-) TimerEvent: {}
+[82.199389] (-) TimerEvent: {}
+[82.299984] (-) TimerEvent: {}
+[82.400598] (-) TimerEvent: {}
+[82.501232] (-) TimerEvent: {}
+[82.601848] (-) TimerEvent: {}
+[82.702585] (-) TimerEvent: {}
+[82.803404] (-) TimerEvent: {}
+[82.904153] (-) TimerEvent: {}
+[83.004955] (-) TimerEvent: {}
+[83.105570] (-) TimerEvent: {}
+[83.206134] (-) TimerEvent: {}
+[83.306706] (-) TimerEvent: {}
+[83.407262] (-) TimerEvent: {}
+[83.507836] (-) TimerEvent: {}
+[83.608413] (-) TimerEvent: {}
+[83.708933] (-) TimerEvent: {}
+[83.809472] (-) TimerEvent: {}
+[83.909994] (-) TimerEvent: {}
+[84.010585] (-) TimerEvent: {}
+[84.111175] (-) TimerEvent: {}
+[84.211742] (-) TimerEvent: {}
+[84.312428] (-) TimerEvent: {}
+[84.413086] (-) TimerEvent: {}
+[84.513651] (-) TimerEvent: {}
+[84.614200] (-) TimerEvent: {}
+[84.714796] (-) TimerEvent: {}
+[84.815384] (-) TimerEvent: {}
+[84.915981] (-) TimerEvent: {}
+[85.016589] (-) TimerEvent: {}
+[85.117162] (-) TimerEvent: {}
+[85.217770] (-) TimerEvent: {}
+[85.318321] (-) TimerEvent: {}
+[85.418944] (-) TimerEvent: {}
+[85.519577] (-) TimerEvent: {}
+[85.620126] (-) TimerEvent: {}
+[85.720726] (-) TimerEvent: {}
+[85.821221] (-) TimerEvent: {}
+[85.921773] (-) TimerEvent: {}
+[86.022312] (-) TimerEvent: {}
+[86.122925] (-) TimerEvent: {}
+[86.223422] (-) TimerEvent: {}
+[86.323965] (-) TimerEvent: {}
+[86.424497] (-) TimerEvent: {}
+[86.525023] (-) TimerEvent: {}
+[86.625478] (-) TimerEvent: {}
+[86.725960] (-) TimerEvent: {}
+[86.826423] (-) TimerEvent: {}
+[86.926985] (-) TimerEvent: {}
+[87.027509] (-) TimerEvent: {}
+[87.127941] (-) TimerEvent: {}
+[87.228411] (-) TimerEvent: {}
+[87.328911] (-) TimerEvent: {}
+[87.429342] (-) TimerEvent: {}
+[87.529801] (-) TimerEvent: {}
+[87.630281] (-) TimerEvent: {}
+[87.730812] (-) TimerEvent: {}
+[87.831296] (-) TimerEvent: {}
+[87.931819] (-) TimerEvent: {}
+[88.032353] (-) TimerEvent: {}
+[88.132799] (-) TimerEvent: {}
+[88.233229] (-) TimerEvent: {}
+[88.333725] (-) TimerEvent: {}
+[88.434274] (-) TimerEvent: {}
+[88.534867] (-) TimerEvent: {}
+[88.635426] (-) TimerEvent: {}
+[88.735965] (-) TimerEvent: {}
+[88.836462] (-) TimerEvent: {}
+[88.936906] (-) TimerEvent: {}
+[89.037311] (-) TimerEvent: {}
+[89.137709] (-) TimerEvent: {}
+[89.238150] (-) TimerEvent: {}
+[89.338604] (-) TimerEvent: {}
+[89.439031] (-) TimerEvent: {}
+[89.539477] (-) TimerEvent: {}
+[89.639924] (-) TimerEvent: {}
+[89.740380] (-) TimerEvent: {}
+[89.840852] (-) TimerEvent: {}
+[89.941288] (-) TimerEvent: {}
+[90.041670] (-) TimerEvent: {}
+[90.142103] (-) TimerEvent: {}
+[90.242488] (-) TimerEvent: {}
+[90.342965] (-) TimerEvent: {}
+[90.443364] (-) TimerEvent: {}
+[90.543822] (-) TimerEvent: {}
+[90.644229] (-) TimerEvent: {}
+[90.744634] (-) TimerEvent: {}
+[90.845118] (-) TimerEvent: {}
+[90.945570] (-) TimerEvent: {}
+[91.046055] (-) TimerEvent: {}
+[91.146501] (-) TimerEvent: {}
+[91.247020] (-) TimerEvent: {}
+[91.347447] (-) TimerEvent: {}
+[91.447885] (-) TimerEvent: {}
+[91.548335] (-) TimerEvent: {}
+[91.648761] (-) TimerEvent: {}
+[91.749275] (-) TimerEvent: {}
+[91.849789] (-) TimerEvent: {}
+[91.950295] (-) TimerEvent: {}
+[92.050795] (-) TimerEvent: {}
+[92.151260] (-) TimerEvent: {}
+[92.251717] (-) TimerEvent: {}
+[92.352269] (-) TimerEvent: {}
+[92.452723] (-) TimerEvent: {}
+[92.553203] (-) TimerEvent: {}
+[92.653640] (-) TimerEvent: {}
+[92.754105] (-) TimerEvent: {}
+[92.854552] (-) TimerEvent: {}
+[92.954995] (-) TimerEvent: {}
+[93.055450] (-) TimerEvent: {}
+[93.155883] (-) TimerEvent: {}
+[93.256340] (-) TimerEvent: {}
+[93.356746] (-) TimerEvent: {}
+[93.457158] (-) TimerEvent: {}
+[93.557603] (-) TimerEvent: {}
+[93.658028] (-) TimerEvent: {}
+[93.758468] (-) TimerEvent: {}
+[93.858888] (-) TimerEvent: {}
+[93.959264] (-) TimerEvent: {}
+[94.059732] (-) TimerEvent: {}
+[94.160130] (-) TimerEvent: {}
+[94.260520] (-) TimerEvent: {}
+[94.360823] (-) TimerEvent: {}
+[94.461159] (-) TimerEvent: {}
+[94.561471] (-) TimerEvent: {}
+[94.661718] (-) TimerEvent: {}
+[94.762040] (-) TimerEvent: {}
+[94.862363] (-) TimerEvent: {}
+[94.962695] (-) TimerEvent: {}
+[95.062966] (-) TimerEvent: {}
+[95.163340] (-) TimerEvent: {}
+[95.263707] (-) TimerEvent: {}
+[95.364051] (-) TimerEvent: {}
+[95.464419] (-) TimerEvent: {}
+[95.564757] (-) TimerEvent: {}
+[95.665053] (-) TimerEvent: {}
+[95.765505] (-) TimerEvent: {}
+[95.865922] (-) TimerEvent: {}
+[95.966444] (-) TimerEvent: {}
+[96.066849] (-) TimerEvent: {}
+[96.167316] (-) TimerEvent: {}
+[96.267828] (-) TimerEvent: {}
+[96.368292] (-) TimerEvent: {}
+[96.468740] (-) TimerEvent: {}
+[96.569232] (-) TimerEvent: {}
+[96.669723] (-) TimerEvent: {}
+[96.720488] (web_video_server) StdoutLine: {'line': b'[100%] Linking CXX executable web_video_server\n'}
+[96.769839] (-) TimerEvent: {}
+[96.870228] (-) TimerEvent: {}
+[96.970743] (-) TimerEvent: {}
+[97.071314] (-) TimerEvent: {}
+[97.171863] (-) TimerEvent: {}
+[97.272407] (-) TimerEvent: {}
+[97.372849] (-) TimerEvent: {}
+[97.473304] (-) TimerEvent: {}
+[97.573736] (-) TimerEvent: {}
+[97.674102] (-) TimerEvent: {}
+[97.774542] (-) TimerEvent: {}
+[97.875043] (-) TimerEvent: {}
+[97.975519] (-) TimerEvent: {}
+[98.075946] (-) TimerEvent: {}
+[98.176383] (-) TimerEvent: {}
+[98.276795] (-) TimerEvent: {}
+[98.377222] (-) TimerEvent: {}
+[98.477649] (-) TimerEvent: {}
+[98.578062] (-) TimerEvent: {}
+[98.678390] (-) TimerEvent: {}
+[98.778775] (-) TimerEvent: {}
+[98.879236] (-) TimerEvent: {}
+[98.979665] (-) TimerEvent: {}
+[99.080043] (-) TimerEvent: {}
+[99.180391] (-) TimerEvent: {}
+[99.280849] (-) TimerEvent: {}
+[99.381370] (-) TimerEvent: {}
+[99.481867] (-) TimerEvent: {}
+[99.582372] (-) TimerEvent: {}
+[99.682878] (-) TimerEvent: {}
+[99.783381] (-) TimerEvent: {}
+[99.883866] (-) TimerEvent: {}
+[99.984356] (-) TimerEvent: {}
+[100.085618] (web_video_server) StdoutLine: {'line': b'[100%] Built target web_video_server\n'}
+[100.086180] (-) TimerEvent: {}
+[100.163431] (web_video_server) CommandEnded: {'returncode': 0}
+[100.186402] (-) TimerEvent: {}
+[100.286854] (-) TimerEvent: {}
+[100.387385] (-) TimerEvent: {}
+[100.487811] (-) TimerEvent: {}
+[100.588397] (-) TimerEvent: {}
+[100.688851] (-) TimerEvent: {}
+[100.789241] (-) TimerEvent: {}
+[100.889676] (-) TimerEvent: {}
+[100.990161] (-) TimerEvent: {}
+[101.090626] (-) TimerEvent: {}
+[101.186918] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'install'}
+[101.190846] (-) TimerEvent: {}
+[101.264137] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_ws/build_aarch64/web_video_server'], 'cwd': '/ros_ws/build_aarch64/web_video_server', 'env': OrderedDict([('COLCON', '1'), ('TARGET_ARCH', 'aarch64'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ros_ws/build_aarch64/web_video_server'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('LANG', 'en_US.UTF-8'), ('COLCON_DEFAULTS_FILE', '/root/defaults.yaml'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'galactic'), ('OWNER_USER', '1000'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('SHLVL', '1'), ('HOSTNAME', 'OVO-D3DKDK3'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[101.291059] (-) TimerEvent: {}
+[101.352792] (web_video_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[101.356497] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/lib/web_video_server/web_video_server\n'}
+[101.365191] (web_video_server) StdoutLine: {'line': b'-- Set runtime path of "/ros_ws/install_aarch64/web_video_server/lib/web_video_server/web_video_server" to ""\n'}
+[101.366198] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server\n'}
+[101.367177] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/image_streamer.h\n'}
+[101.368463] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/multipart_stream.h\n'}
+[101.369210] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/png_streamers.h\n'}
+[101.369703] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/ros_compressed_streamer.h\n'}
+[101.370198] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/h264_streamer.h\n'}
+[101.370681] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/web_video_server.h\n'}
+[101.370970] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/vp9_streamer.h\n'}
+[101.371457] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/jpeg_streamers.h\n'}
+[101.372134] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/vp8_streamer.h\n'}
+[101.372834] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/include/web_video_server/libav_streamer.h\n'}
+[101.373550] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server\n'}
+[101.374182] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server\n'}
+[101.374856] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/environment/ament_prefix_path.sh\n'}
+[101.375515] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv\n'}
+[101.375810] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/environment/path.sh\n'}
+[101.376098] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/environment/path.dsv\n'}
+[101.376403] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/local_setup.bash\n'}
+[101.376689] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/local_setup.sh\n'}
+[101.376974] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/local_setup.zsh\n'}
+[101.377258] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/local_setup.dsv\n'}
+[101.377543] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/package.dsv\n'}
+[101.377829] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/ament_index/resource_index/packages/web_video_server\n'}
+[101.378133] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake\n'}
+[101.378436] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake\n'}
+[101.378723] (web_video_server) StdoutLine: {'line': b'-- Installing: /ros_ws/install_aarch64/web_video_server/share/web_video_server/package.xml\n'}
+[101.387465] (web_video_server) CommandEnded: {'returncode': 0}
+[101.391926] (-) TimerEvent: {}
+[101.493121] (-) TimerEvent: {}
+[101.593558] (-) TimerEvent: {}
+[101.694000] (-) TimerEvent: {}
+[101.794388] (-) TimerEvent: {}
+[101.894775] (-) TimerEvent: {}
+[101.995161] (-) TimerEvent: {}
+[102.095662] (-) TimerEvent: {}
+[102.196072] (-) TimerEvent: {}
+[102.296423] (-) TimerEvent: {}
+[102.396763] (-) TimerEvent: {}
+[102.496197] (web_video_server) JobEnded: {'identifier': 'web_video_server', 'rc': 0}
+[102.502559] (-) TimerEvent: {}
+[102.502662] (-) EventReactorShutdown: {}
